@@ -26,6 +26,30 @@
 > > ```
 > > - jika kalian ingin melihat versi laravel/breeze kalian bisa  <a href="https://packagist.org/packages/laravel/breeze"> lihat di sini
 ---
+<b>Cara menjalankannya</b>
+---
+> - langkah pertaman : lakukan git clone seperti di bawah ini :
+```
+ git clone https://github.com/Usmanganteng/belajar-laravel-security.git
+```
+> - langkah kedua : copy file .env.example dan ganti namanya menjadi .env seperti perintah di bawah ini ketika sudah kalian lakukan, kalian bisa tulis perintah setelah nya yaitu composer install 
+```
+ cp .env.example .env
+ composer install
+```
+> - langkah ketiga : lakukan perintah seperti di bawah ini :
+```
+php artisan key:generate
+```
+> - langkah keempat : kalian bisa buat database dengan nama belajar_laravel_database lalu ganti nama database yang ada di .env dengan nama database yang sudah kalian buat lalu lakukan perintah :
+```
+php artisan migrate
+```
+> - langkah terakhir : kailan bisa langsung jalankan atau run dengan menulilskan perintah :
+```
+php artisan serve
+```
+---
 <b>Materi/Bahasan</b>
 ---
 > #### Apa itu laravel sevurity
